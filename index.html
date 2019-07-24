@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume Form</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body style="padding-top: 71px;">
+     <!-- Header -->
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid" style="height: 70px;">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle navbutton" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <div class="sidebutton" onclick="toggleSidebar()" >
+                        <span></span>
+                        <span></span>
+                        <span></span> 
+                    </div>
+                    <div >
+                    <a class="navbar-brand" href="index.html">
+                        <img src="TalentFore-Logo_01.png" class="img1" >    
+                    </a>
+                    </div>    
+                </div>
+               
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right" style="margin-top: 15px;">
+                        <li><a href="signup.html" class="header_links"><span class="glyphicon glyphicon-user"></span> Refer a Friend</a></li>
+                        <li><a href="login.html" class="header_links"><span class="glyphicon glyphicon-phone"></span> Contact Us</a></li>
+                        <li><a href="login.html" class="header_links"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Header end--->
+      
+                <div id="sidebar">
+                    <ul>
+                        <li>
+                            <a id="link1" href="">
+                            <span class="glyphicon glyphicon-dashboard dash_icon"></span> 
+                            <span class="dash_text">Open Opportunities</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link2" href=""> 
+                                <span class="glyphicon glyphicon-calendar dash_icon"></span>
+                                <span class="dash_text">My Opportunities</span> 
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link3" href=""> 
+                                <span class="glyphicon glyphicon-cog dash_icon"></span> 
+                                <span class="dash_text">Won Opportunities</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link4" href="">
+                            <span class="glyphicon glyphicon-dashboard dash_icon"></span> 
+                            <span class="dash_text">My Resume</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link5" href="">
+                            <span class="glyphicon glyphicon-dashboard dash_icon"></span> 
+                            <span class="dash_text">Cover letter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link6" href="">
+                            <span class="glyphicon glyphicon-dashboard dash_icon"></span> 
+                            <span class="dash_text">Assessment Practice</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link7" href="">
+                            <span class="glyphicon glyphicon-dashboard dash_icon"></span> 
+                            <span class="dash_text">My profile</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>    
+    </body>    

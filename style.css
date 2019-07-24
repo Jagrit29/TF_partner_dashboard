@@ -1,0 +1,141 @@
+.header_links
+{
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+    font-size: 15px!important;
+    line-height: 20px!important;
+    letter-spacing: .05em!important;
+    text-transform:capitalize;
+    color: #666666;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+#area
+{
+    margin-top: 73px;
+}
+#sidebar
+{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: ;
+    left: -1px;
+    transition: all 500ms linear;
+    border-right: 1px solid #E0E0E0;
+}
+/*#sidebar .z
+{
+display: none;
+}*/
+#sidebar.active
+{
+    border-right: 0px;
+}
+#sidebar.active .dash_text
+{
+    display: none;
+}
+#sidebar ul li 
+{
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+    font-size: 15px!important;
+    line-height: 20px!important;
+    letter-spacing: .05em!important;
+    text-transform:uppercase;
+    color: #666666;
+    padding: 15px 10px;
+    
+}
+.sidebutton
+{
+    position: absolute;
+    padding: 7px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+.sidebutton span
+{
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fe6625;
+    margin: 3px 0px;
+    padding: 1px;
+    
+}
+.img1
+{
+    width: 240px;
+    height: 60px;
+    margin-top:-10px;
+    margin-left: 40px;
+    padding-left: 10px;
+}
+@media screen and (max-width: 500px)
+{
+    #sidebar
+    {
+        left: 0px;
+        width: 200px;
+    }
+    #sidebar .dash_text
+    {
+       display: none;
+    }
+    #sidebar.active .dash_text
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 415px)
+{
+    .img1
+    {
+        margin-top: -10px;
+    }
+}
+@media screen and (max-width: 368px)
+{
+    .img1
+    {
+        width: 200px;
+        height: 60px;
+        margin-top: -10px;
+        margin-left: 40px;
+        padding-left: 0px;
+        
+    }
+}
+@media screen and (max-width: 330px)
+{
+    .img1
+    {
+        width: 180px;
+        
+    }
+}
+.dash_icon
+{
+    color: #666666;
+    text-decoration: none;
+}
+.dash_text
+{
+    color: #666666;
+    text-decoration: none;
+}
+
+a:hover span
+{
+    color: #003d59;
+}
+#link1 , #link2 , #link3 , #link4 , #link5 , #link6 , #link7
+{
+    text-decoration: none;
+}
